@@ -35,7 +35,12 @@ li a {
   justify-content: space-evenly;
 flex: flex-basis;
 }
-body > main > div.cards > ul > li > div > img{
+.flex {
+  height: 100%;
+  width: 100%;
+
+}
+img {
   object-fit: contain;
 }
 @media (min-width: 992px) {
