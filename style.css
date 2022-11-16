@@ -17,7 +17,7 @@ float: right;
 padding: 20px;
 
 }
-div {
+.links {
   display: inline;
   text-align: center;
 }
@@ -30,7 +30,14 @@ li a {
    color: black;
    margin: 0px 20px;
 }
-
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+flex: flex-basis;
+}
+body > main > div.cards > ul > li > div > img{
+  object-fit: contain;
+}
 @media (min-width: 992px) {
   .hidden-xl {
     display: none;
